@@ -1,0 +1,40 @@
+header {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form {
+    margin: auto auto;
+    width: 460px;
+}
+
+input {
+    margin: auto 5px;
+}
+
+label {
+    text-align: center;
+    font-weight: 700;
+}
+
+#label-message,
+#message {
+    display: block;
+    margin: 5px auto;
+}
+
+#submit-button {
+    display: block;
+    margin: auto auto;
+}
+
+
+#google-maps {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 5px auto;
+    border: 1px solid black;
+}
